@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "TimUntersberger/neogit",
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim"
+    },
+    config = function()
+      require("neogit").setup {}
+    end,
+  }
 }
