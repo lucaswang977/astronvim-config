@@ -18,5 +18,12 @@ return {
     config = function()
       require("neogit").setup {}
     end,
+  },
+  {
+    "levouh/tint.nvim",
+    lazy = false,
+    config = function()
+      require("tint").setup {}
+    end,
   }
 }

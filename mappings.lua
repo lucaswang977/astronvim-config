@@ -24,6 +24,7 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>gg"] = { "<cmd>Neogit<cr>", desc = "Neogit" },
+    ["gV"] = { "<cmd>vsplit | lua vim.lsp.buf.definition()<CR>", desc = "Goto definition in a vertical split" },
   },
   t = {
     -- setting a mapping to false will disable it
