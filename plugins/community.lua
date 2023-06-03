@@ -6,4 +6,5 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
